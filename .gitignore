@@ -1,0 +1,34 @@
+# Ignore everything by default
+*
+
+# Allow specific file types
+!.gitignore
+!*.ipynb
+!*.config
+!*.py
+!*.R
+!*.r
+!*.sh
+!*.Rmd
+!*.rmd
+
+!renv.lock
+
+# Allow directories (required to traverse folders and add files selectively)
+!*/
+
+# Ignore all .ipynb_checkpoints folders
+.ipynb_checkpoints/
+
+
+
+# ignore powerpoints
+*.pptx
+
+# Ignore specific folders
+r_outputs/
+r_objects/
+python_objects/
+raw_data/
+temp/
+renv/
