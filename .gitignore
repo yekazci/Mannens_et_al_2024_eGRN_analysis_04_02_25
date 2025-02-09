@@ -12,7 +12,7 @@
 !*.Rmd
 !*.rmd
 
-!renv.lock
+!*.lock
 
 # Allow directories (required to traverse folders and add files selectively)
 !*/
