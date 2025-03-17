@@ -75,6 +75,20 @@
       ],
       "Hash": "b7df9c597fb5533fc8248d73b8c703ac"
     },
+    "AnnotationFilter": {
+      "Package": "AnnotationFilter",
+      "Version": "1.28.0",
+      "Source": "Bioconductor",
+      "Repository": "Bioconductor 3.19",
+      "Requirements": [
+        "GenomicRanges",
+        "R",
+        "lazyeval",
+        "methods",
+        "utils"
+      ],
+      "Hash": "24e809470aef6d81b25003d775b2fb56"
+    },
     "AnnotationHub": {
       "Package": "AnnotationHub",
       "Version": "3.12.0",
@@ -591,6 +605,15 @@
       ],
       "Hash": "429ec4de613e0212d301750089cf6a2c"
     },
+    "EnsDb.Hsapiens.v86": {
+      "Package": "EnsDb.Hsapiens.v86",
+      "Version": "2.99.0",
+      "Source": "Bioconductor",
+      "Requirements": [
+        "ensembldb"
+      ],
+      "Hash": "626af36a8d6de3c44779ff2a073952e6"
+    },
     "ExperimentHub": {
       "Package": "ExperimentHub",
       "Version": "2.12.0",
@@ -728,6 +751,29 @@
         "utils"
       ],
       "Hash": "e539709764587c581b31e446dc84d7b8"
+    },
+    "GenomicFeatures": {
+      "Package": "GenomicFeatures",
+      "Version": "1.56.0",
+      "Source": "Bioconductor",
+      "Repository": "Bioconductor 3.19",
+      "Requirements": [
+        "AnnotationDbi",
+        "BiocGenerics",
+        "Biostrings",
+        "DBI",
+        "GenomeInfoDb",
+        "GenomicRanges",
+        "IRanges",
+        "R",
+        "S4Vectors",
+        "XVector",
+        "methods",
+        "rtracklayer",
+        "stats",
+        "utils"
+      ],
+      "Hash": "0d19619d13b06b9dea85993ce7f09c52"
     },
     "GenomicRanges": {
       "Package": "GenomicRanges",
@@ -999,6 +1045,16 @@
         "uwot"
       ],
       "Hash": "95ff3958466753d3fd29807a4c5cf6cc"
+    },
+    "ProtGenerics": {
+      "Package": "ProtGenerics",
+      "Version": "1.36.0",
+      "Source": "Bioconductor",
+      "Repository": "Bioconductor 3.19",
+      "Requirements": [
+        "methods"
+      ],
+      "Hash": "a3737c10efc865abfa9d204ca8735b74"
     },
     "R.methodsS3": {
       "Package": "R.methodsS3",
@@ -1697,6 +1753,24 @@
         "stats"
       ],
       "Hash": "83d45b690bffd09d1980c224ef329f5b"
+    },
+    "UCell": {
+      "Package": "UCell",
+      "Version": "2.10.1",
+      "Source": "Bioconductor",
+      "Repository": "Bioconductor 3.20",
+      "Requirements": [
+        "BiocNeighbors",
+        "BiocParallel",
+        "Matrix",
+        "R",
+        "SingleCellExperiment",
+        "SummarizedExperiment",
+        "data.table",
+        "methods",
+        "stats"
+      ],
+      "Hash": "b2b360e4389b4605b939b9b100c52859"
     },
     "XML": {
       "Package": "XML",
@@ -2585,6 +2659,33 @@
         "yulab.utils"
       ],
       "Hash": "e0cede4c92d6474f83cd1197f761e5b2"
+    },
+    "ensembldb": {
+      "Package": "ensembldb",
+      "Version": "2.28.1",
+      "Source": "Bioconductor",
+      "Repository": "Bioconductor 3.19",
+      "Requirements": [
+        "AnnotationDbi",
+        "AnnotationFilter",
+        "Biobase",
+        "BiocGenerics",
+        "Biostrings",
+        "DBI",
+        "GenomeInfoDb",
+        "GenomicFeatures",
+        "GenomicRanges",
+        "IRanges",
+        "ProtGenerics",
+        "R",
+        "RSQLite",
+        "Rsamtools",
+        "S4Vectors",
+        "curl",
+        "methods",
+        "rtracklayer"
+      ],
+      "Hash": "3cc0b1fdf6626029488714dc318fe039"
     },
     "entropy": {
       "Package": "entropy",
@@ -5137,6 +5238,27 @@
         "rlang"
       ],
       "Hash": "d53dbfddf695303ea4ad66f86e99b95d"
+    },
+    "scGate": {
+      "Package": "scGate",
+      "Version": "1.6.2",
+      "Source": "Bioconductor",
+      "Repository": "CRAN",
+      "Requirements": [
+        "BiocParallel",
+        "R",
+        "Seurat",
+        "UCell",
+        "dplyr",
+        "ggplot2",
+        "ggridges",
+        "methods",
+        "patchwork",
+        "reshape2",
+        "stats",
+        "utils"
+      ],
+      "Hash": "1b36d2a02837a476de5a7d43cf20ee5f"
     },
     "scMultiome": {
       "Package": "scMultiome",
